@@ -1,0 +1,494 @@
+
+# MAIN THEME
+
+#Communist Music
+music = {
+	name = "lel1"
+	file = "lel1.ogg"
+	volume = 1.00
+}
+
+music = {
+	name = "lel2"
+	file = "lel2.ogg"
+	volume = 3.00
+}
+
+music = {
+	name = "lel3"
+	file = "lel3.ogg"
+	volume = 3.00
+}
+
+music = {
+	name = "lel4"
+	file = "lel4.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel5"
+	file = "lel5.ogg"
+	volume = 1.00
+}
+
+music = {
+	name = "lel6"
+	file = "lel6.ogg"
+	volume = 1.00
+}
+
+music = {
+	name = "lel7"
+	file = "lel7.ogg"
+	volume = 1.00
+}
+
+music = {
+	name = "lel9"
+	file = "lel9.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel10"
+	file = "lel10.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel11"
+	file = "lel11.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel12"
+	file = "lel12.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel14"
+	file = "lel14.ogg"
+	volume = 1.00
+}
+
+music = {
+	name = "lel16"
+	file = "lel16.ogg"
+	volume = 2.00
+}
+music = {
+	name = "lel17"
+	file = "lel17.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel19"
+	file = "lel19.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel20"
+	file = "lel20.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel21"
+	file = "lel21.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel22"
+	file = "lel22.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel23"
+	file = "lel23.ogg"
+	volume = 2.00
+}
+music = {
+	name = "lel24"
+	file = "lel24.ogg"
+	volume = 4.00
+}
+
+music = {
+	name = "lel25"
+	file = "lel25.ogg"
+	volume = 3.00
+}
+music = {
+	name = "lel26"
+	file = "lel26.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel27"
+	file = "lel27.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel28"
+	file = "lel28.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel29"
+	file = "lel29.ogg"
+	volume = 1.00
+}
+music = {
+	name = "lel30"
+	file = "lel30.ogg"
+	volume = 1.00
+}
+music = {
+	name = "Inti-Illimani - El Pueblo Unido Jamas Sera Vencido"
+	file = "Inti-Illimani - El Pueblo Unido Jamas Sera Vencido.ogg"
+	volume = 1.00
+}
+music = {
+	name = "Katyusha-Japanese girls"
+	file = "Katyusha-Japanese girls.ogg"
+	volume = 1.00
+}
+music = {
+	name = "Soviet March(Woman)"
+	file = "Soviet March(Woman).ogg"
+	volume = 1.00
+}
+music = {
+	name = "00 Theme"
+	file = "00 Theme.ogg"
+	volume = 1.00
+}
+music = {
+	name = "02 The Big Action"
+	file = "02 The Big Action.ogg"
+	volume = 1.00
+}music = {
+	name = "03 Information"
+	file = "03 Information.ogg"
+	volume = 1.00
+}music = {
+	name = "04 Calm Etude"
+	file = "04 Calm Etude.ogg"
+	volume = 1.00
+}
+music = {
+	name = "05 Fleeing from the War"
+	file = "05 Fleeing from the War.ogg"
+	volume = 1.00
+}
+music = {
+	name = "06 Dancing sunrise"
+	file = "06 Dancing sunrise.ogg"
+	volume = 1.00
+}
+music = {
+	name = "07 The Begin of Creation"
+	file = "07 The Begin of Creation.ogg"
+	volume = 1.00
+}
+music = {
+	name = "08 Weariness of Waiting"
+	file = "08 Weariness of Waiting.ogg"
+	volume = 1.00
+}
+music = {
+	name = "09 Tears For Remembrance"
+	file = "09 Tears For Remembrance.ogg"
+	volume = 1.00
+}
+music = {
+	name = "10 The Teletype"
+	file = "10 The Teletype.ogg"
+	volume = 1.00
+}
+music = {
+	name = "13 12"
+	file = "13 12.ogg"
+	volume = 1.00
+}
+music = {
+	name = "14 One Minute of Proud"
+	file = "14 One Minute of Proud.ogg"
+	volume = 1.00
+}
+music = {
+	name = "15 Homecoming"
+	file = "15 Homecoming.ogg"
+	volume = 1.00
+}
+music = {
+	name = "16 The End of Mission"
+	file = "16 The End of Mission.ogg"
+	volume = 1.00
+}
+music = {
+	name = "17 Dicitencello Vuje"
+	file = "17 Dicitencello Vuje.ogg"
+	volume = 1.00
+}
+music = {
+	name = "21 Air buttle"
+	file = "21 Air buttle.ogg"
+	volume = 1.00
+}
+music = {
+	name = "22 Beyond of battle"
+	file = "22 Beyond of battle.ogg"
+	volume = 1.00
+}
+music = {
+	name = "23 Chimera"
+	file = "23 Chimera.ogg"
+	volume = 1.00
+}
+music = {
+	name = "24 Dancing bullets"
+	file = "24 Dancing bullets.ogg"
+	volume = 1.00
+}
+music = {
+	name = "27 Sea up"
+	file = "27 Sea up.ogg"
+	volume = 1.00
+}
+music = {
+	name = "28 Sea down"
+	file = "28 Sea down.ogg"
+	volume = 1.00
+}
+music = {
+	name = "29 Spy"
+	file = "29 Spy.ogg"
+	volume = 1.00
+}
+music = {
+	name = "battlefield 5 main theme"
+	file = "battlefield 5 main theme.ogg"
+	volume = 1.00
+}
+music = {
+	name = "battlefield 1942 theme"
+	file = "battlefield 1942 theme.ogg"
+	volume = 1.00
+}
+music = {
+	name = "Bella Ciao"
+	file = "Bella Ciao.ogg"
+	volume = 1.00
+}
+music = {
+	name = "Bolshevik Leaves Home"
+	file = "Bolshevik Leaves Home.ogg"
+	volume = 1.00
+}
+music = {
+	name = "Civil War Songs"
+	file = "Civil War Songs.ogg"
+	volume = 1.00
+}
+music = {
+	name = "Farewell of Slavianka"
+	file = "Farewell of Slavianka.ogg"
+	volume = 3.00
+}
+music = {
+	name = "Gunner's Song"
+	file = "Gunner's Song.ogg"
+	volume = 1.00
+}
+music = {
+	name = "Katyusha"
+	file = "Katyusha.ogg"
+	volume = 2.00
+}
+music = {
+	name = "Katyusha(Prebonus)"
+	file = "Katyusha(Prebonus).ogg"
+	volume = 1.00
+}
+music = {
+	name = "Let's Go!"
+	file = "Let's Go!.ogg"
+	volume = 1.00
+}
+music = {
+	name = "March of grassland cavalry"
+	file = "March of grassland cavalry.ogg"
+	volume = 1.00
+}
+music = {
+	name = "March of Memories"
+	file = "March of Memories.ogg"
+	volume = 1.00
+}
+music = {
+	name = "17 Dicitencello Vuje"
+	file = "17 Dicitencello Vuje.ogg"
+	volume = 1.00
+}
+music = {
+	name = "March of Stalin's Artillery"
+	file = "March of Stalin's Artillery.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "March of the Defenders of Moscow"
+	file = "March of the Defenders of Moscow.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "March of the Motherland"
+	file = "March of the Motherland.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "March of the Soviet Artillerymen"
+	file = "March of the Soviet Artillerymen.ogg"
+	volume = 1.00
+}
+music = {
+	name = "March of the Soviet Tankists"
+	file = "March of the Soviet Tankists.ogg"
+	volume = 1.00
+}
+music = {
+	name = "Moscow Nights"
+	file = "Moscow Nights.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "My Army"
+	file = "My Army.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "Polyushka Poyle"
+	file = "Polyushka Poyle.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "The red army is the strongest(jap)"
+	file = "The red army is the strongest(jap).ogg"
+	volume = 1.00
+}
+
+music = {
+	name = "The Sacred War"
+	file = "The Sacred War.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "Varchavianka"
+	file = "Varchavianka.ogg"
+	volume = 1.00	
+}
+
+music = {
+	name = "Victory"
+	file = "Victory.ogg"
+	volume = 1.00
+}
+music = {
+	name = "We Are the Army of the People!"
+	file = "We Are the Army of the People!.ogg"
+	volume = 1.00
+}
+
+music = {
+	name = "We are the Red Cavalry"
+	file = "We are the Red Cavalry.ogg"
+	volume = 1.00
+}
+
+music = {
+	name = "Fighting will continue"
+	file = "Fighting will continue.ogg"
+	volume = 1.00
+}
+
+music = {
+	name = "Singing our turbulent youth"
+	file = "Singing our turbulent youth.ogg"
+	volume = 2.00
+}
+
+music = {
+	name = "zhongguojunhun"
+	file = "zhongguojunhun.ogg"
+	volume = 1.00
+}
+music = {
+	name = "March of Flooding Iron"
+	file = "March of Flooding Iron.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "Eagle Take Wings"
+	file = "Eagle Take Wings.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "Rushing into the sky"
+	file = "Rushing into the sky.ogg"
+	volume = 1.00	
+}
+
+music = {
+	name = "The Blowing East Wind"
+	file = "The Blowing East Wind.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "When that day come"
+	file = "When that day come.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "Enhance Army song"
+	file = "Enhance Army song.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "Sing Motherland"
+	file = "Sing Motherland.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "If the war happens today"
+	file = "If the war happens today.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "Tang-International song"
+	file = "Tang-International song.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "Liaochangyong-Song of Youngth Communist"
+	file = "Liaochangyong-Song of Youngth Communist.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "No communist party no china"
+	file = "No communist party no china.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "Socialism is good"
+	file = "Socialism is good.ogg"
+	volume = 1.00	
+}
+music = {
+	name = "Sun Also Rises"
+	file = "Sun Also Rises.ogg"
+	volume = 1.25	
+}
+
+# US red songs
+music = {
+	name = "Superman Red Son"
+	file = "Superman Red Son.ogg"
+	volume = 1.00	
+}

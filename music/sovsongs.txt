@@ -1,0 +1,1320 @@
+music_station ="com_radio"
+
+# Communist music ##################
+music = {
+	song = "lel1"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel2"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel4"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel5"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel6"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel7"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel9"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel10"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel11"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel12"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel14"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel17"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel19"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel20"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel21"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel22"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel23"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel24"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel25"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel26"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel27"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel28"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel29"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "lel30"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "Inti-Illimani - El Pueblo Unido Jamas Sera Vencido"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "Katyusha-Japanese girls"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "Soviet March(Woman)"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+# Soviet storm
+music = {
+	song = "00 Theme"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "02 The Big Action"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "03 Information"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "04 Calm Etude"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "05 Fleeing from the War"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "06 Dancing sunrise"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+music = {
+	song = "07 The Begin of Creation"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "08 Weariness of Waiting"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "09 Tears For Remembrance"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+music = {
+	song = "10 The Teletype"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+music = {
+	song = "13 12"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+music = {
+	song = "14 One Minute of Proud"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+music = {
+	song = "15 Homecoming"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+music = {
+	song = "16 The End of Mission"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+music = {
+	song = "17 Dicitencello Vuje"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+music = {
+	song = "21 Air buttle"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+music = {
+	song = "22 Beyond of battle"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+music = {
+	song = "23 Chimera"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+
+music = {
+	song = "24 Dancing bullets"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+music = {
+	song = "27 Sea up"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+music = {
+	song = "28 Sea down"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+music = {
+	song = "29 Spy"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_war = no
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}
+}
+
+#other songs(no government restrct)
+music = {
+	song = "battlefield 5 main theme"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "battlefield 1942 theme"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "Bella Ciao"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "Bolshevik Leaves Home"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "Civil War Songs"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "Farewell of Slavianka"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "Gunner's Song"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "Katyusha"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "Katyusha(Prebonus)"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "Let's Go!"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "March of grassland cavalry"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "March of Memories"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+
+music = {
+	song = "March of Stalin's Artillery"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "March of the Defenders of Moscow"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "March of the Motherland"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "March of the Soviet Artillerymen"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "March of the Soviet Tankists"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "Moscow Nights"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "My Army"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "Polyushka Poyle"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "The red army is the strongest(jap)"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+
+music = {
+	song = "The Sacred War"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "Varchavianka"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+
+music = {
+	song = "Victory"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "We Are the Army of the People!"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+
+music = {
+	song = "We are the Red Cavalry"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "Fighting will continue"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+music = {
+	song = "Singing our turbulent youth"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+ 
+# China songs
+music = {
+	song = "lel16"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "zhongguojunhun"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes
+			}
+		}		
+	}	
+}
+music = {
+	song = "March of Flooding Iron"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes				
+			}
+		}		
+	}	
+}
+music = {
+	song = "Eagle Take Wings"
+	chance = {
+		modifier = {
+            factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes			
+			}
+		}
+	}
+}
+music = {
+	song = "Rushing into the sky"
+	chance = {
+		modifier = {
+            factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes				
+			}
+		}
+	}
+}
+music = {
+	song = "The Blowing East Wind"
+	chance = {
+		modifier = {
+            factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes			
+			}
+		}
+    }
+}
+music = {
+	song = "When that day come"
+	chance = {
+		modifier = {
+            factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes			
+			}
+		}
+    }
+}
+music = {
+	song = "Enhance Army name"
+	chance = {
+		modifier = {
+            factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes			
+			}
+		}
+    }
+}
+music = {
+	song = "Sing Motherland"
+	chance = {
+		modifier = {
+            factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes			
+			}
+		}
+    }
+}
+music = {
+	song = "If the war happens today"
+	chance = {
+		modifier = {
+            factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes			
+			}
+		}
+    }
+}
+music = {
+	song = "Tang-International name"
+	chance = {
+		modifier = {
+            factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes			
+			}
+		}
+    }
+}
+music = {
+	song = "Liaochangyong-Song of Youngth Communist"
+	chance = {
+		modifier = {
+            factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes			
+			}
+		}
+    }
+}
+music = {
+	song = "No communist party no china"
+	chance = {
+		modifier = {
+            factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes			
+			}
+		}
+    }
+}
+music = {
+	song = "Socialism is good"
+	chance = {
+		modifier = {
+            factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes			
+			}
+		}
+    }
+}
+music = {
+	song = "Sun Also Rises"
+	chance = {
+		modifier = {
+            factor = 1
+			OR = { 
+			    tag = PRC
+				has_government = communist
+				has_socialist_government = yes			
+			}
+		}
+    }
+}
+
+# US red songs
+music = {
+	song = "Superman Red Son"
+	chance = {
+		modifier = {
+            factor = 1
+		}
+    }
+}

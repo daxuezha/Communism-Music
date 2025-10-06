@@ -1,0 +1,1198 @@
+add_namespace = changshi
+
+# add to faction for different main countries
+country_event = {
+	id = changshi.1
+
+	is_triggered_only = yes
+	
+
+	option = {
+		name = changshi.1.z
+	}
+	
+	option = {
+		name = changshi.1.a
+		NFA = {
+			add_to_faction = ROOT
+		}
+	}
+	
+	option = {
+		name = changshi.1.b
+		JAP = {
+			add_to_faction = ROOT
+		}
+	}
+	
+	option = {
+		name = changshi.1.c
+		CHI = {
+			add_to_faction = ROOT
+		}
+	}
+
+	option = {
+		name = changshi.1.d
+		AUS = {
+			add_to_faction = ROOT
+		}
+	}
+	
+	option = {
+		name = changshi.1.e
+		INT = {
+			add_to_faction = ROOT
+		}
+	}
+	
+	option = {
+		name = changshi.1.f
+		RUS = {
+			add_to_faction = ROOT
+		}
+	}
+	option = {
+		name = changshi.1.g
+		HND = {
+			add_to_faction = ROOT
+		}
+	}
+	option = {
+		name = changshi.1.h
+		OTT = {
+			add_to_faction = ROOT
+		}
+	}
+	option = {
+		name = changshi.1.i
+		EGY = {
+			add_to_faction = ROOT
+		}
+	}
+	
+}
+
+# give access to other main countries and factions
+country_event = {
+	id = changshi.2
+
+	is_triggered_only = yes
+	
+	option = {
+		name = changshi.2.z
+	}
+
+	# GER faction
+	option = {
+		name = changshi.2.a
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = GER
+				}
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+			GER = {
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = GER
+			}
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+		GER = {
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+	}
+	
+	# AUS faction
+	option = {
+		name = changshi.2.b
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = AUS
+				}
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+			AUS = {
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = AUS
+			}
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+		AUS = {
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+	}
+	
+	# NFA faction
+	option = {
+		name = changshi.2.c
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = NFA
+				}
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+			NFA = {
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = NFA
+			}
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+		NFA = {
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+	}
+	
+	# CHI faction
+	option = {
+		name = changshi.2.d
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = CHI
+				}
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+			CHI = {
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = CHI
+			}
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+		CHI = {
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+	}
+	
+	# JAP faction
+	option = {
+		name = changshi.2.e
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = JAP
+				}
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+			JAP = {
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = JAP
+			}
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+		JAP = {
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+	}
+	
+	# RUS faction
+	option = {
+		name = changshi.2.f
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = RUS
+				}
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+			RUS = {
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = RUS
+			}
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+		RUS = {
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+	}
+
+	# INT faction
+	option = {
+		name = changshi.2.g
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = INT
+				}
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+			INT = {
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = INT
+			}
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+		INT = {
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+	}
+
+	# WCA faction
+	option = {
+		name = changshi.2.h
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = WCA
+				}
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+			WCA = {
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = WCA
+			}
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+		WCA = {
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+	}
+
+	# EGY faction
+	option = {
+		name = changshi.2.i
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = EGY
+				}
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+			EGY = {
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = EGY
+			}
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+		EGY = {
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+	}
+
+	# OTT faction
+	option = {
+		name = changshi.2.j
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = OTT
+				}
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+			OTT = {
+				give_military_access = PREV
+				PREV = { give_military_access = PREV }
+			}
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = OTT
+			}
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+		OTT = {
+			give_military_access = ROOT
+			ROOT = { give_military_access = PREV }
+		}
+	}
+}
+
+# give access to other main countries and factions
+country_event = {
+	id = changshi.3
+
+	is_triggered_only = yes
+	
+	option = {
+		name = changshi.3.z
+	}
+
+	# GER faction
+	option = {
+		name = changshi.3.a
+		every_country = {
+			limit = {
+				OR = {
+					is_in_faction_with = ROOT
+					tag = ROOT
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						is_in_faction_with = GER
+						tag = GER
+					}
+				}
+				diplomatic_relation = {
+					country = PREV
+					relation = military_access
+					active = no
+				}
+				PREV = {
+					diplomatic_relation = {
+						country = PREV
+						relation = military_access
+						active = no
+					}					
+				}
+			}
+		}
+	}
+	
+	# AUS faction
+	option = {
+		name = changshi.3.b
+		every_country = {
+			limit = {
+				OR = {
+					is_in_faction_with = ROOT
+					tag = ROOT
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						is_in_faction_with = AUS
+						tag = AUS
+					}
+				}
+				diplomatic_relation = {
+					country = PREV
+					relation = military_access
+					active = no
+				}
+				PREV = {
+					diplomatic_relation = {
+						country = PREV
+						relation = military_access
+						active = no
+					}					
+				}
+			}
+		}
+	}
+	
+	# NFA faction
+	option = {
+		name = changshi.3.c
+		every_country = {
+			limit = {
+				OR = {
+					is_in_faction_with = ROOT
+					tag = ROOT
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						is_in_faction_with = NFA
+						tag = NFA
+					}
+				}
+				diplomatic_relation = {
+					country = PREV
+					relation = military_access
+					active = no
+				}
+				PREV = {
+					diplomatic_relation = {
+						country = PREV
+						relation = military_access
+						active = no
+					}					
+				}
+			}
+		}
+	}
+	
+	# CHI faction
+	option = {
+		name = changshi.3.d
+		every_country = {
+			limit = {
+				OR = {
+					is_in_faction_with = ROOT
+					tag = ROOT
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						is_in_faction_with = CHI
+						tag = CHI
+					}
+				}
+				diplomatic_relation = {
+					country = PREV
+					relation = military_access
+					active = no
+				}
+				PREV = {
+					diplomatic_relation = {
+						country = PREV
+						relation = military_access
+						active = no
+					}					
+				}
+			}
+		}
+	}
+	
+	# JAP faction
+	option = {
+		name = changshi.3.e
+		every_country = {
+			limit = {
+				OR = {
+					is_in_faction_with = ROOT
+					tag = ROOT
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						is_in_faction_with = JAP
+						tag = JAP
+					}
+				}
+				diplomatic_relation = {
+					country = PREV
+					relation = military_access
+					active = no
+				}
+				PREV = {
+					diplomatic_relation = {
+						country = PREV
+						relation = military_access
+						active = no
+					}					
+				}
+			}
+		}
+	}
+	
+	# RUS faction
+	option = {
+		name = changshi.3.f
+		every_country = {
+			limit = {
+				OR = {
+					is_in_faction_with = ROOT
+					tag = ROOT
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						is_in_faction_with = RUS
+						tag = RUS
+					}
+				}
+				diplomatic_relation = {
+					country = PREV
+					relation = military_access
+					active = no
+				}
+				PREV = {
+					diplomatic_relation = {
+						country = PREV
+						relation = military_access
+						active = no
+					}					
+				}
+			}
+		}
+	}
+
+	# INT faction
+	option = {
+		name = changshi.3.g
+		every_country = {
+			limit = {
+				OR = {
+					is_in_faction_with = ROOT
+					tag = ROOT
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						is_in_faction_with = INT
+						tag = INT
+					}
+				}
+				diplomatic_relation = {
+					country = PREV
+					relation = military_access
+					active = no
+				}
+				PREV = {
+					diplomatic_relation = {
+						country = PREV
+						relation = military_access
+						active = no
+					}					
+				}
+			}
+		}
+	}
+
+	# WCA faction
+	option = {
+		name = changshi.3.h
+		every_country = {
+			limit = {
+				OR = {
+					is_in_faction_with = ROOT
+					tag = ROOT
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						is_in_faction_with = WCA
+						tag = WCA
+					}
+				}
+				diplomatic_relation = {
+					country = PREV
+					relation = military_access
+					active = no
+				}
+				PREV = {
+					diplomatic_relation = {
+						country = PREV
+						relation = military_access
+						active = no
+					}					
+				}
+			}
+		}
+	}
+
+	# EGY faction
+	option = {
+		name = changshi.3.i
+		every_country = {
+			limit = {
+				OR = {
+					is_in_faction_with = ROOT
+					tag = ROOT
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						is_in_faction_with = EGY
+						tag = EGY
+					}
+				}
+				diplomatic_relation = {
+					country = PREV
+					relation = military_access
+					active = no
+				}
+				PREV = {
+					diplomatic_relation = {
+						country = PREV
+						relation = military_access
+						active = no
+					}					
+				}
+			}
+		}
+	}
+
+	# OTT faction
+	option = {
+		name = changshi.3.j
+		every_country = {
+			limit = {
+				OR = {
+					is_in_faction_with = ROOT
+					tag = ROOT
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						is_in_faction_with = OTT
+						tag = OTT
+					}
+				}
+				diplomatic_relation = {
+					country = PREV
+					relation = military_access
+					active = no
+				}
+				PREV = {
+					diplomatic_relation = {
+						country = PREV
+						relation = military_access
+						active = no
+					}					
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = changshi.4
+
+	is_triggered_only = yes
+	
+
+	option = {
+		name = changshi.4.z
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.4.a
+		RUS = { complete_national_focus = RUS_peoples_union }
+		every_country = {
+			limit = {
+				is_puppet_of = RUS
+				has_autonomy_state = union_republic_autonomous
+				OR = {
+					tag = BAT
+					tag = FIN
+					tag = LIT
+					tag = LAT
+					tag = EST
+					tag = BLR
+					tag = UKR
+					tag = GEO
+					tag = ARM
+					tag = AZR
+					tag = KAZ
+					tag = KHI
+					tag = TRK
+					tag = BUK
+				}
+			}
+			RUS = {
+				set_autonomy = {
+					target = PREV
+					autonomy_state = union_republic
+				}
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.4.b
+		every_country = {
+			limit = {
+				is_puppet_of = RUS
+				has_autonomy_state = union_republic
+				NOT = { tag = BAT }
+				NOT = { tag = FIN }
+				NOT = { tag = LIT }
+				NOT = { tag = LAT }
+				NOT = { tag = EST }
+				NOT = { tag = BLR }
+				NOT = { tag = UKR }
+				NOT = { tag = GEO }
+				NOT = { tag = ARM }
+				NOT = { tag = AZR }
+				NOT = { tag = KAZ }
+				NOT = { tag = KHI }
+				NOT = { tag = TRK }
+				NOT = { tag = BUK }
+			}
+			RUS = {
+				set_autonomy = {
+					target = PREV
+					autonomy_state = union_republic_autonomous
+				}
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = changshi.5
+
+	is_triggered_only = yes
+	
+	option = {
+		name = changshi.5.a
+		MAF = { 
+			if = {
+				limit = { NGA = { exists = yes } }			
+				annex_country = {
+				target = NGA
+				transfer_troops = yes
+				}
+			}
+			if = {
+				limit = { UGA = { exists = yes } }			
+				annex_country = {
+				target = UGA
+				transfer_troops = yes
+				}
+			}
+			if = {
+				limit = { KEN = { exists = yes } }			
+				annex_country = {
+				target = KEN
+				transfer_troops = yes
+				}
+			}
+			if = {
+				limit = { RWA = { exists = yes } }			
+				annex_country = {
+				target = RWA
+				transfer_troops = yes
+				}
+			}
+			if = {
+				limit = { BRD = { exists = yes } }			
+				annex_country = {
+				target = BRD
+				transfer_troops = yes
+				}
+			}
+			if = {
+				limit = { KTG = { exists = yes } }			
+				annex_country = {
+				target = KTG
+				transfer_troops = yes
+				}
+			}
+			if = {
+				limit = { ZAM = { exists = yes } }			
+				annex_country = {
+				target = ZAM
+				transfer_troops = yes
+				}
+			}
+			if = {
+				limit = { GHA = { exists = yes } }			
+				annex_country = {
+				target = GHA
+				transfer_troops = yes
+				}
+			}
+			every_owned_state = {
+				add_core_of = MAF
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = changshi.5.b
+		set_cosmetic_tag = RUS_SOV
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = changshi.100
+
+	is_triggered_only = yes
+	
+	option = {
+		name = changshi.100.z
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.100.a
+		random_country = {
+			limit = {
+				is_puppet_of = ROOT
+			}
+			ROOT = {
+				set_autonomy = {
+					target = PREV
+					autonomy_state = autonomy_free
+				}
+				give_guarantee = PREV
+				give_military_access = PREV
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = changshi.100.b
+		every_country = {
+			limit = {
+				has_war_with = ROOT
+			}
+			white_peace = ROOT
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = changshi.100.c
+		every_country = {
+			limit = {
+				has_war_with = ROOT
+				is_in_faction_with = OTT
+			}
+			white_peace = ROOT
+		}		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = changshi.100.d
+		every_country = {
+			limit = {
+				has_war_with = ROOT
+				OR = {
+					is_in_faction_with = NFA
+					is_in_faction_with = CAN
+					is_in_faction_with = DEH
+					is_in_faction_with = GEX
+				}
+			}
+			white_peace = ROOT
+		}		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = changshi.100.e
+		every_country = {
+			limit = {
+				has_war_with = ROOT
+				is_in_faction_with = AUS
+			}
+			white_peace = ROOT
+		}		
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.100.f
+		every_country = {
+			limit = {
+				has_war_with = ROOT
+				is_in_faction_with = GER
+			}
+			white_peace = ROOT
+		}		
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.100.g
+		every_country = {
+			limit = {
+				has_war_with = ROOT
+				is_in_faction_with = INT
+			}
+			white_peace = ROOT
+		}		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = changshi.100.h
+		every_country = {
+			limit = {
+				has_war_with = ROOT
+				is_in_faction_with = RUS
+			}
+			white_peace = ROOT
+		}		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = changshi.100.i
+		every_country = {
+			limit = {
+				has_war_with = ROOT
+				is_in_faction_with = JAP
+			}
+			white_peace = ROOT
+		}		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = changshi.100.j
+		every_country = {
+			limit = {
+				has_war_with = ROOT
+				is_in_faction_with = CHI
+			}
+			white_peace = ROOT
+		}		
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+}
+
+country_event = {
+	id = changshi.101
+
+	trigger = {
+		tag = SOV
+		check_variable = { SOV_paranoia > 10 }
+		has_country_flag = SOV_paranoia_system_active_flag
+	}
+	
+	option = {
+		name = changshi.101.a
+		SOV_paranoia_high_decrease_effect = yes
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.101.b
+		add_to_variable = { SOV_fyp_consumer_goods_factor = -0.01 }
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = changshi.101.c
+		RUS = { puppet = ROOT }
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = changshi.102
+
+	is_triggered_only = yes
+	
+	option = {
+		name = changshi.102.a
+		annex_country = {
+			target = D01
+			transfer_troops = yes
+		}
+		if = {
+			limit = { tag = RAJ }
+			set_cosmetic_tag = RAJ_REB_S_communism
+			set_varible = { Neutral_Communism_leader = 0 }
+			create_country_leader = {
+				name = "Harkishan Singh Surjeet"
+				picture = "harkishan_singh_surjeet.dds"
+				ideology = Neutral_Communism
+				traits = {
+					neutrality_Neutral_Communism
+				}
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = changshi.102.b
+		annex_country = {
+			target = D02
+			transfer_troops = yes
+		}
+		if = {
+			limit = { tag = RAJ }
+			set_cosmetic_tag = RAJ_REB_S_communism
+			set_varible = { Neutral_Communism_leader = 0 }
+			create_country_leader = {
+				name = "Harkishan Singh Surjeet"
+				picture = "harkishan_singh_surjeet.dds"
+				ideology = Neutral_Communism
+				traits = {
+					neutrality_Neutral_Communism
+				}
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = changshi.102.c
+		swap_ideas = {
+			remove_idea = landowners
+			add_idea = communist_cadres
+		}
+		set_temp_variable = { temp_opinion = 10 }
+		change_communist_cadres_opinion = yes
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = changshi.102.d
+		swap_ideas = {
+			remove_idea = landowners
+			add_idea = oligarchs
+		}
+		set_temp_variable = { temp_opinion = 10 }
+		change_oligarchs_opinion = yes
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = changshi.102.e
+		set_temp_variable = { percent_change = 2 }
+		change_domestic_influence_percentage = yes
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
