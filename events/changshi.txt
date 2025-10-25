@@ -1196,3 +1196,232 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = changshi.103
+
+	is_triggered_only = yes
+	
+	option = {
+		name = changshi.103.0
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.103.1
+		mio:CHI_jlb_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.103.2
+		mio:CHI_hyb_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.103.3
+		mio:CHI_gdb_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.103.4
+		mio:CHI_gxb_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.103.5
+		mio:CHI_kmb_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.103.6
+		mio:CHI_zzb_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.103.7
+		mio:CHI_tyb_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.103.8
+		mio:CHI_xzq_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.103.9
+		mio:CHI_cqb_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.103.10
+		mio:CHI_jnb_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = changshi.104
+
+	is_triggered_only = yes
+	
+	option = {
+		name = changshi.104.0
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.104.1
+		mio:CHI_shb_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.104.2
+		mio:CHI_syb_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.104.3
+		mio:CHI_xmz_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.104.4
+		mio:CHI_fzz_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.104.5
+		mio:CHI_dlz_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.104.6
+		mio:CHI_jnz_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.104.7
+		mio:CHI_fzf_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.104.8
+		mio:CHI_syf_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.104.9
+		mio:CHI_zyf_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = changshi.104.10
+		mio:CHI_dyf_organisation = {
+			add_mio_funds = 20000
+		}
+		mio:CHI_dyf_production_organisation = {
+			add_mio_funds = 20000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
